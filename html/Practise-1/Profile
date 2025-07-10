@@ -1,0 +1,128 @@
+<!doctype html>
+<head>
+  <meta name="description" content="Profile page of Mahidul Islam." />
+  <title>Profile</title>
+</head>
+
+<body>
+  <h1>This is the wall!!</h1>
+  <hr />
+  <h2>This is the profile page of Mahidul Islam.</h2>
+  <nav>
+    <ul>
+      <li>
+        Github: <a href="https://github.com/UchihaBadhon">UchihaBadhon</a>
+      </li>
+      <li>
+        Codeforces:
+        <a href="https://codeforces.com/profile/mahidul_badhon" target="_blank">
+          mahidul_badhon</a
+        >
+      </li>
+      <li><a href="#form">Fill out the form to contact</a></li>
+    </ul>
+  </nav>
+  <hr />
+  
+  <section id="form">
+    <form action = "https://httpbin.org/post" method = "post">
+    <fieldset>
+      <legend>Personal info</legend>
+      <p>
+        <label for="firstName">First Name: </label>
+        <input 
+          type = "text" 
+          name = "firstName" 
+          id = "firstName" 
+          placeholder="John"
+          autocomplete="on"
+          required />
+      </p>
+      <p>
+        <label for = "lastName:">Last Name: </label>
+        <input
+          type = "text"
+          name = "lastName"
+          id = "lastName" 
+          placeholder = "Doe"
+          autocomplete="on"
+          required /> <!-- id should be same as for attribute -->
+      </p>
+      <p>
+        <label for = "email">Email: </label>
+        <input
+          type = "email"
+          name = "email"
+          id = "email"
+          placeholder = "jhon.doe@gmail.com"
+          required />
+      </p>
+      <p>
+        <label for = "password">Password: </label>
+        <input
+          type = "password"
+          name = "password"
+          id = "password"
+          required />
+      </p>
+      <p>
+        <label for = "age">Age: </label>
+        <input
+          type = "number"
+          name = "age"
+          id = "age"
+          min = "13"
+          max = "60" />
+      </p>
+      <p>
+        <label for = "textarea">Send me a message</label>
+        <br>
+        <textarea
+          id = "textarea"
+          name = "textarea"
+          cols="30"
+          rows = "10"
+          placeholder = "Send a message"></textarea>
+      </p>
+    </fieldset>
+    <br>
+    
+    <fieldset>
+      <legend>Favourite food items</legend>
+      <p>
+        <input type = "radio" name = "food" id = "Burger" value = "Burger" />
+        <label for = "Burger">Burger</label>
+      </p>
+      <p>
+        <input type = "radio" name = "food" id = "Pizza" value = "Pizza" />
+        <label for = "Pizza">Pizza</label>
+      </p>
+    </fieldset>
+    <br>
+    
+    <fieldset>
+      <legend>Pets that you like</legend>
+      <p>
+        <input type = "checkbox" name = "pet" id = "Cat" value = "Cat" />
+        <label for = "Cat">Cat</label>
+      </p>
+      <p>
+        <input type = "checkbox" name = "pet" id = "Dog" value = "Dog" />
+        <label for = "Dog">Dog</label>
+      </p>
+      <p>
+        <input type = "checkbox" name = "pet" id = "other" value = "other" />
+        <label for = "other">Other</label>
+      </p>
+    </fieldset>
+    <br>
+    
+    <button 
+      type = "submit" 
+      formaction = "https://httpbin.org/post"     
+      formmethod="post">Submit</button>
+    <button type = "reset">Reset</button>
+
+      </form>
+  </section>
+</body>

@@ -1,0 +1,74 @@
+<!--
+  Hit RUN to see this project in action!
+  
+  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="This is the web page I am making to learn."
+    />
+    <title>First Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hello world.</h1>
+      <hr />
+    </header>
+
+    <h2>This is the page that <em>I am looking for!!!</em></h2>
+    <p>I told you!!</p>
+    <hr />
+    <h3>I get that!!</h3>
+    <p>...Dont worry!! I will handle it <strong>smoothly..</strong></p>
+    <hr />
+    &lt;&lt;&copy;
+    <a href="profile.html" target="_blank">Mahidul Islam</a> &copy;&gt;&gt;
+    <ol>
+      <li>There is a image in the second line..</li>
+      <li>
+        This image is downloadable. Click to download it..
+        <a href="uchiha_clan.jpg" download="uchiha_clan.jpg">Download</a>
+      </li>
+    </ol>
+
+    <hr />
+    <p>The Greatest anime in my opinion:</p>
+    <ul>
+      <li>
+        <figure>
+          <p>
+            This might be the most favourite anime in my library. <br />Lots of
+            thrills and plots and interesting characters.
+          </p>
+          <img
+            src="Images/Naruto.jpg"
+            alt="Frame of Naruto"
+            title="Naruto"
+            width="185"
+            height="272"
+          />
+          <figcaption>Naruto</figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <p>This anime is called the Hunter X Hunter.</p>
+        <img
+          src="Images/Hunter_x_hunter.jpg"
+          alt="Hunter x Hunter"
+          title="Hover on images of hunter x hunter"
+          width="185"
+          height="272"
+        />
+        <figcaption>Hunter_x_Hunter</figcaption>
+      </li>
+    </ul>
+  </body>
+</html>
+
+<!-- target = "_blank" is used to open the link in a new tab. -->

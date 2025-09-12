@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html en = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>First Page</title>
+    <link rel = "stylesheet" href = "styleCover.css">
+  </head>
+
+  <body>
+    <!-- <h1>
+      Welcome to home page!;
+    </h1> -->
+    <!-- <hr> -->
+    <!-- <a href = "hours.html" target = "_blank">
+      Go to hours
+    </a> -->
+
+    <section id = "contact">
+      <div class="bg"></div>
+        <h2>This is the future!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus reiciendis aperiam ex quasi numquam.
+        </p>
+          <a class = "btn" href = "https://www.github.com" target="_blank">Contact us</a>
+      
+    </section>
+
+    
+    
+    
+  </body>
+</html>              

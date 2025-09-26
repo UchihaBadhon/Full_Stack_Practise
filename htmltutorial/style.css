@@ -1,0 +1,288 @@
+/*
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  
+} */
+
+/* html{
+  font-size: 16px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+
+body {
+  /* background: url(Images/siednji-leon-7jujZumbU1w-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll; */
+  background-color: rgba(76, 117, 133 0.7);
+}
+
+p {
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* .parent {
+  background-color: beige;
+  margin: 2px;
+  padding: 2px;
+  height: 1200px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start; /* to align all items altogether 
+  
+}
+.child {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  padding: 2px;
+} 
+/* .parent :nth-child(2){
+  align-self: center;
+} */
+#box1 {
+  background-color: red;
+  align-self: center; /* to align a particular item */
+}
+#box2 {
+  background-color: blue;
+  /* align-self: stretch; */
+  /* align-items: center; */
+}
+#box3{
+  background-color: green;
+  /* flex-shrink: 4; */
+  flex-grow: 0;
+  /* flex-basis: 300px; */
+}
+#box4 {
+  background-color: yellow;
+  flex-basis: 300px;
+  
+  
+}
+
+.parent{
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0px;
+  left: 40%;
+  
+}
+/* .child1{
+  display: inline;
+  height: 200px;
+  width: 200px;
+  border-color: red;
+  background-color: red;
+  border-style: solid;
+  border-width: 2px;
+  
+}
+.child2{
+  display: inline;
+  height: 200px;
+  width: 200px;
+  border-color: blue;
+  background-color: blue;
+  border-style: solid;
+  border-width: 2px;
+
+}
+.child3{
+  display: inline;
+  height: 200px;
+  width: 200px;
+  border-color: green;
+  background-color: green;
+  border-style: solid;
+  border-width: 2px;
+
+}
+.child4{
+  
+  height: 200px;
+  width: 200px;
+  border-color: red;
+  background-color: red;
+  border-style: solid;
+  border-width: 2px;
+  display: inline;
+
+} */
+
+
+
+/* h2 {
+  margin: 10px 0px;
+  padding: 10px 0px ;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  font-style: normal;
+} */
+
+/* h2 {
+  margin: 5px 5px;
+} */
+i {
+  margin: 5px 5px;
+  font-size: 25px;
+  color: blue;
+}
+
+h3 {
+  margin: 0px 5px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: tomato;
+  font-weight: 200;
+  
+}
+
+#twitter {
+  color: black;
+}
+
+a {
+  margin: 5px 5px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  
+}
+
+a:visited{
+  color: blue;
+}
+a:hover{
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 15px 0px 0px 0px;
+  padding: 5px;
+  background-color: tomato;
+  color: white;
+  
+}
+
